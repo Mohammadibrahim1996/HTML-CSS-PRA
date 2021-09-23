@@ -1,0 +1,32 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-image: url(.src/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+    background: url(.src/unsplash1.jpg);
+    padding: 10px;
+    text-indent: 200px;
+    color: black;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+}
+
+.content2 {
+background-image: url(.src/logo.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+text-indent: 150px;
+text-align: justify;
+border-radius: 5px;
+box-shadow: 0 0 10px black;
+border: 2px;
+padding: 10px;
+
+}

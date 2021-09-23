@@ -1,0 +1,48 @@
+
+a {
+    color: azure;
+}
+a:hover{color: blanchedalmond;
+background-color: coral;}
+
+
+
+
+
+
+
+
+
+
+.droplist-1{
+    display: none;
+    position: absolute;
+    padding: 5px;
+    width: 150px;
+}
+.dropdown-1 a{
+    display: block;
+}
+.dropdown-1{
+    display: inline-block;
+}
+.dropdown-1:hover.droplist-1{
+    display: block;
+    text-align: center;
+}
+.droplist-2{
+    display: none;
+    position: absolute;
+    padding: 5px;
+    width: 150px;
+}
+.dropdown-2 a{
+    display: block;
+}
+.dropdown-2{
+    display: inline-block;
+}
+.dropdown-2:hover.droplist-2{
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+img{
+width: 100%;
+display: block;
+margin: auto;
+}
+h1{
+    font-family: monospace;
+    text-align: center;  
+}
+h5,h4,h3,h2{
+    font-family: monospace;
+    text-align: center;
+    display:none;
+    font-size: 30px;
+}
+
+/*-----------Mobile View---------*/
+@media (max-width:500px) {
+    body{
+        background-color: rgb(224, 172, 153);
+    }
+    h5{
+        display: block;
+    }
+    p{
+        color: rgb(236, 228, 197);
+    }
+    
+}
+
+/*--------tablet view-------*/
+@media(min-width:501px) and (max-width:800px){
+    body{
+        background-color: rgb(18, 99, 99);
+    }
+    h4{ 
+        display: block;
+    }
+    p{
+        color: rgb(201, 119, 119);
+    }
+}
+
+/*------LAPTOPVIEW------*/
+@media(min-width:801px) and (max-width:1200px){
+    body{
+        background-color: darkslateblue;
+    }
+    h3{
+        display: block;
+    }
+    p{
+        color: firebrick;
+    }
+}
+
+/*--------EXTRA LARGE-------*/
+@media(min-width:1201px){
+    body{
+        background-color: rgb(240, 159, 240);
+    }
+    h2{
+        display: block;
+    }
+    p{
+        color: rgb(235, 216, 111);
+    }
+}

@@ -1,0 +1,32 @@
+.design{
+    padding: 10px;
+    border: 2px;
+    text-align:center;
+    background-color: burlywood;
+}
+a{
+    text-decoration: none;
+padding: 10px;}
+
+a:hover{
+    background-color: coral;
+    color: cyan;
+}
+    .fa.home{
+        margin: 10px;
+    }
+    .fa-product-hunt{
+        margin: 10px;
+    }
+    .fa-instagram{
+        margin: 10px;
+    }
+    .fa-facebook{
+        margin: 10px;
+    }
+    .fa-address-card{
+        margin: 10px;
+    }
+    .fa-registered{
+        margin: 10px;
+    }

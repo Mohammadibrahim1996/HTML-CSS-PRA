@@ -1,0 +1,26 @@
+
+
+table{
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+th{
+    background-color: goldenrod;
+    padding: 20px;
+    font-weight:bolder;
+    border-radius: 15px;
+}
+td{
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+tr:nth-child(odd){
+    background-color: grey;
+    color: black;
+}
+tr:nth-child(even){
+background-color: hotpink;
+color: indigo;
+}
