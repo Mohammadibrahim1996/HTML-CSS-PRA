@@ -1,0 +1,37 @@
+.main-container{
+    height: 900px;
+    width: 80%;
+    background-color: azure;
+    border: 2px solid;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px;
+};
+.item1 {
+    background-color: burlywood;
+    border: 2px solid black;
+}
+.item2 {
+    background-color: cadetblue;
+    border: 2px black;
+}
+
+.item3 {
+    background-color: cadetblue;
+    border: 2px black;
+}
+.item4 {
+    background-color: brown;
+    border: 2px black;
+}
+.item5 {
+    background-color: lightcoral;
+    border: 2px black;
+}
+.item6 {
+    background-color: cornflowerblue;
+    border: 2px black;
+}
+
