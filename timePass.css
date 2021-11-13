@@ -1,0 +1,16 @@
+.nav-div{
+    height: 50px;
+    width: fit-content;
+    background-color: lightgreen;
+}
+.anchors{
+    height: 20px;
+    background-color: lightpink;
+    color: #fff;
+    /* align-content: center; */
+    /* float: right; */
+}
+.a{
+    align-content: center;
+    display: block;
+}
